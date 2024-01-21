@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'BOLD';
+    src: url(/assets/fonts/static/Inter-Bold.ttf);
+
+}
+
+@font-face {
+    font-family: 'light';
+    src: url(/assets/fonts/static/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'name';
+    src: url(/assets/fonts/static/Inter-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'location';
+    src: url(/assets/fonts/static/Inter-Regular.ttf);
+}
+
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  margin: 60px auto;
+  background: hsl(0, 0%, 12%);
+  max-width: 293px;
+  text-align: center;
+  padding-inline: 20px;
+}
+body {
+  background: hsl(0, 0%, 8%);
+  font-family: 'MemphisRiver';
+}
+
+.image img {
+  border-radius: 50%;
+  padding-inline: 60px;
+  padding-block: 20px;
+}
+
+h1 {
+  color: hsl(0, 0%, 100%);
+  font-family: 'light';
+}
+.location {
+  color: hsl(75, 94%, 57%);
+  font-family: 'bold';
+  font-size: 13px;
+  margin-top: -11px;
+}
+
+.bio {
+  color: hsl(0, 0%, 80%);
+  font-family: 'light';
+  font-size: 14px;
+  padding-top: 10px;
+}
+li {
+  list-style-type: none;
+  padding-bottom: 20px;
+}
+li ol {
+  background: hsl(0, 0%, 20%);
+  padding: 10px;
+  font-family: 'Bold';
+  font-size: 13px;
+  border-radius: 6px;
+  color: hsl(0, 0%, 100%);
+  transition: background 0.5s;
+  cursor: pointer;
+
+  &:hover {
+    background: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 20%);
+    
+  }
+}
+
+.attribution{
+    font-family: bold;
+    color: beige;
+}
+.attribution a{
+    text-decoration: none;
+    color: hsl(75, 94%, 57%);
+    transition: color 0.5s;
+      &:hover {
+    color: hsl(0, 0%, 20%);
+    border-radius: 2px;
+      }
+
+}
